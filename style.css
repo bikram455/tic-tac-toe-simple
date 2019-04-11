@@ -1,0 +1,27 @@
+h1, p {
+  font-family: Lato;
+}
+
+.board{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.box{
+  min-width: 25%;
+  max-width: 33%;
+  height: 100px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle
+}
+.top{
+  border-bottom: 1px solid;
+}
+.middle{
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+.bottom {
+  border-top: 1px solid;
+}
